@@ -40,6 +40,8 @@ func NewEditPage(p *BoardPage, listIdx, taskIdx int) tview.Primitive {
 		AddButton("Cancel", func() {
 			closeRemovePage()
 		})
+	form.SetFieldBackgroundColor(tcell.ColorDarkSlateGrey)
+	form.SetButtonBackgroundColor(tcell.ColorDarkSlateGrey)
 	form.SetBorder(true).SetTitle("Edit Task").SetTitleAlign(tview.AlignCenter)
 	form.SetInputCapture(func(event *tcell.EventKey) *tcell.EventKey {
 		switch event.Key() {

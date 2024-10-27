@@ -40,6 +40,8 @@ func NewAddPage(p *BoardPage, pos int) tview.Primitive {
 		}
 		return event
 	})
+	form.SetFieldBackgroundColor(tcell.ColorDarkSlateGrey)
+	form.SetButtonBackgroundColor(tcell.ColorDarkSlateGrey)
 	form.SetBorder(true).SetTitle("Create Task").SetTitleAlign(tview.AlignCenter)
 	return GetCenteredModal(form, width/2, height/2)
 }

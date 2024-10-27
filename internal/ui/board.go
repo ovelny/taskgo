@@ -58,6 +58,8 @@ func (p *BoardPage) Page() tview.Primitive {
 			SetBorder(true)
 		p.lists[i].SetBorderColor(theme.PrimitiveBackgroundColor)
 		p.lists[i].SetTitle(listName)
+		p.lists[i].SetSelectedTextColor(tcell.ColorCoral)
+		p.lists[i].SetSelectedBackgroundColor(tcell.ColorBlack)
 		p.setInputCapture(i)
 		p.addTasksToList(i)
 		flex.AddItem(p.lists[i], 0, 1, i == 0)
