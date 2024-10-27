@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/singalhimanshu/taskgo/pkg/parser"
+	"github.com/ovelny/taskgo/pkg/parser"
 )
 
 type Command interface {

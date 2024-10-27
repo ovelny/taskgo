@@ -6,8 +6,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/singalhimanshu/taskgo/internal/ui"
-	"github.com/singalhimanshu/taskgo/pkg/files"
+	"github.com/ovelny/taskgo/internal/ui"
+	"github.com/ovelny/taskgo/pkg/files"
 )
 
 const defaultFileName = "taskgo.md"

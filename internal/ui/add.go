@@ -6,7 +6,7 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
-	"github.com/singalhimanshu/taskgo/pkg/command"
+	"github.com/ovelny/taskgo/pkg/command"
 )
 
 // NewAddPage provides the form to create a new task.

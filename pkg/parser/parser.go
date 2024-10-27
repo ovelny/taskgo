@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/singalhimanshu/taskgo/pkg/files"
+	"github.com/ovelny/taskgo/pkg/files"
 )
 
 // A Data represents the board name and a slice of list.

@@ -5,7 +5,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/singalhimanshu/taskgo/pkg/parser"
+	"github.com/ovelny/taskgo/pkg/parser"
 )
 
 func TestExecute(t *testing.T) {
