@@ -5,9 +5,9 @@ import (
 	"log"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
 	"github.com/ovelny/taskgo/pkg/command"
 	"github.com/ovelny/taskgo/pkg/parser"
+	"github.com/rivo/tview"
 )
 
 // BoardPage contains all the information that the board page requires.
